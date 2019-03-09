@@ -1,0 +1,283 @@
+body {
+  background-color: #222831;
+}
+
+h1 {
+  color: #00adb5;
+  text-align: center;
+}
+
+h3 {
+  color: #00adb5;
+  text-align: center;
+  font-size: 30px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 10%;
+  border-color: #11999e;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+label {
+  color: white;
+  margin: 30px 15px;
+}
+input {
+  width: 200px;
+  margin: 15px 15px;
+  border-color: #393e46;
+  border-style: double;
+  border-width: 5px;
+}
+input[type=text]:focus {
+  border: 4px solid #11999e;
+}
+textarea[type=text]:focus {
+    border: 4px solid #11999e;
+    resize: none;
+}
+.jack {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 200px;
+}
+
+.education {
+  margin: 15px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dotted;
+  border-color: #11999e;
+  background-color: #11999e;
+  border-radius: 100px;
+  padding: 10px 10px;
+}
+
+.Udemy {
+  padding: 10px 10px;
+  border-radius: 100px;
+  margin: 15px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dotted;
+  border-color: #11999e;
+  background-color: #11999e;
+}
+
+.code {
+  padding: 10px 10px;
+  border-radius: 100px;
+  margin: 15px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dotted;
+  border-color: #11999e;
+  background-color: #11999e;
+}
+
+.work {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-color: #11999e;
+  background-color: #11999e;
+  border-radius: 100px;
+  padding: 10px 10px;
+}
+
+.bio {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 50px
+}
+
+.skills {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #11999e;
+  background-color: #11999e;
+  border-radius: 100px;
+  padding: 15px 15px;
+}
+
+.menu {
+  font-size: 30px;
+  color: #11999e;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0% 25%;
+  background-color: #11999e;
+}
+
+.home {
+  background-color: #222831;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.home2 {
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.hobbies2 {
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.contact {
+  background-color: #222831;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.contact2 {
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.hobbies {
+  background-color: #222831;
+  padding: 15px 15px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: white;
+}
+
+.myHobbies {
+  padding: 15px;
+  font-size: 20px;
+  background-color: #11999e;
+}
+.hobbiesImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 40px;
+}
+.formContact {
+text-align: center;
+}
+.labelText {
+  margin: 30px 15px;
+}
+.submitButton {
+  background-color: #00adb5;
+  border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #00adb5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00adb5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.linkHobbies2 {
+  color: #00adb5;
+  text-decoration: none;
+}
+.linkContact2 {
+  color: #00adb5;
+  text-decoration: none;
+}
+.hobbies2:hover {
+  background-color: #222831;
+}
+.contact2:hover {
+    background-color: #222831;
+}
+.linkHome2 {
+  color: #00adb5;
+  text-decoration: none;
+}
+.home2:hover {
+    background-color: #222831;
+}
